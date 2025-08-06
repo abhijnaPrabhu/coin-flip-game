@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Coin flip game.
+    </title>
+    <style>
+      button{
+        background-color: rgb(74, 121, 106);
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      h1{
+        background-color: rgb(170, 208, 202);
+        padding: 20px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><center><u>Coin Flip Game</u></center></h1>
+    <h3>To begin the game click on the either of the buttons. Let's begin this fun-filled game.</h3>
+    <div>
+    <button onclick="
+       randomNo=Math.random();
+       compMove='';
+      if(randomNo>=0&&randomNo<0.5){
+        compMove='tails';
+      }else if(randomNo>=0.5&&randomNo<1){
+        compMove='heads';
+      }
+       result='';
+      if(compMove=='tails'){
+        result='You win its Tails';
+      }else if(compMove=='heads'){
+        result='You lose';
+      }
+
+      alert(`You chose tails.Computer chose ${compMove}. ${result}`);
+    "><h1>Tails</h1></button>
+
+    <button onclick="const randomNo=Math.random();
+      let compMove='';
+      if(randomNo>=0&&randomNo<0.5){
+        compMove='tails';
+      }else if(randomNo>=0.5&&randomNo<1){
+        compMove='heads';
+      }
+      let result='';
+      if(compMove=='tails'){
+        result='you lose';
+      }else if(compMove=='heads'){
+        result='You win!';
+      }
+
+      alert(`You chose Heads.Computer chose ${compMove}. ${result}`);"><h1>Heads</h1></button><br><br><br>
+    </div>
+    <footer>
+      <u><i>Website developed by: Abhijna</i></u>
+    </footer>
+      
+    <script>
+
+    </script>
+  </body>
+</html>
