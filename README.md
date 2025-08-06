@@ -20,7 +20,7 @@ A simple coin flip game built using **HTML**, **CSS**, and **JavaScript**.
 - Random output: Heads or Tails
 - Clean, minimal interface
 
-)
+
 
 ## 🛠️ Technologies Used
 - HTML
