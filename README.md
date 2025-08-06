@@ -1,33 +1,22 @@
-# 🪙 Coin Flip Game
+Coin Flip Game
+A simple web game that simulates flipping a coin using HTML, CSS, and JavaScript.
 
-A simple coin flip game built using **HTML**, **CSS**, and **JavaScript**.
-
-## 🚀 Live Demo
-👉 [Play the game here](# 🪙 Coin Flip Game
-
-A simple coin flip game built using **HTML**, **CSS**, and **JavaScript**.
-
-## 🚀 Live Demo
-👉 [Play the game here](https://abhijnaPrabhu.github.io/coin-flip-game/)
-
-## 🛠️ Technologies Used
+ Technologies Used
 - HTML
 - CSS
 - JavaScript
 
-## 🎯 Features
+ Features
 - Click button to flip a coin
 - Random output: Heads or Tails
 - Clean, minimal interface
 
-
-
-## 🛠️ Technologies Used
+ Technologies Used
 - HTML
 - CSS
 - JavaScript
 
-## 🎯 Features
+ Features
 - Click button to flip a coin
 - Random output: Heads or Tails
 - Clean, minimal interface
